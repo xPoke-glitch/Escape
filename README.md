@@ -11,7 +11,7 @@ The objective is to escape from each room / level! Find the floor's ladders to e
 
 Be careful, avoid guards or slay them if you find a sword in the floor. If a guard sees you, it will start to chase you! if you get caught you will lose a life and restart the level.
 
-There is a nice tutorial scene in the project, I suggest you to follow it!
+There is a nice tutorial scene in the project, I suggest you to follow it! (Sorry the dialogues are in italian only right now)
 
 The game is not completed, it's just a prototype, but it has all the components to create as many levels as you want.
 
@@ -31,6 +31,7 @@ In order to play the game you have two options:
 
 The commands are really simple:
 * W/A/S/D: Move the player
+* K: Go through a dialogue
 
 ## Gameplay example
 
@@ -38,7 +39,17 @@ This is an example that shows you how the game looks like. This is the first and
 
 <img src="https://github.com/xPoke-glitch/Escape/blob/main/Screenshots/gameplay.gif" width="750">
 
+There is also a cool dialogue system that I created using Inky files:
+
+<img src="https://github.com/xPoke-glitch/Escape/blob/main/Screenshots/dialogue.gif" width="750">
+
 ## Test notes
+
+This project was made mainly for testing and creating a dialogue system with Inky files. Those files are extremly helpful to create dialogues!
+
+I also tested for the first time a grid base pathfinding with A* algorithm for guards AI - this because you can't count on NavMesh for 2D Games with Unity
+
+The game works as intended, it has all the components to create many more levels! I didn't create them because of no time.
 
 ## Team
 
